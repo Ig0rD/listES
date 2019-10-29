@@ -4,8 +4,7 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "browser",
-  "Scope": "/listES/",
-  "start_url": "/",
+  "start_url": "/listES/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
