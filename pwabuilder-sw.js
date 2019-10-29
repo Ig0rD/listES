@@ -17,9 +17,12 @@ self.addEventListener("install", function (event) {
                 return cache.addAll([
                     './',
                     './index.html',
-                    'offline.html',
                     './manifest.json',
-                    './pwabuilder-sw.js'
+                    './pwabuilder-sw.js',
+                    './Exercicio_1/Ex1.html',
+                    './Exercicio_1/Ex1.js',
+                    './Exercicio_2/Ex2.html',
+                    './Exercicio_2/Ex2.js',                    
                 ]);
             }
 
