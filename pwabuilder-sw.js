@@ -16,13 +16,13 @@ self.addEventListener("install", function (event) {
             if (offlineFallbackPage === "./index.html") {
                 return cache.addAll([
                     './',
-                    './index.html',
-                    './manifest.json',
-                    './pwabuilder-sw.js',
-                    './Exercicio_1/Ex1.html',
-                    './Exercicio_1/Ex1.js',
-                    './Exercicio_2/Ex2.html',
-                    './Exercicio_2/Ex2.js',                    
+                    'index.html',
+                    'manifest.json',
+                    'pwabuilder-sw.js',
+                    'Exercicio_1/Ex1.html',
+                    'Exercicio_1/Ex1.js',
+                    'Exercicio_2/Ex2.html',
+                    'Exercicio_2/Ex2.js',                    
                 ]);
             }
 
